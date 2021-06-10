@@ -1,0 +1,258 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 8em;
+	margin-left: -.4em;
+	padding-bottom: 10em;
+	justify-content: center;
+	background-color: #F0F2F5;
+}
+
+.information {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-right: 80px;
+	padding-top: 48px;
+}
+
+.information .logo {
+	width: 301.08px;
+	height: 106px;
+	margin-bottom: -8px;
+	margin-left: -25.5px;
+}
+
+.description-text {
+	width: 500px;
+	height: 116px;
+	margin-left: 2.5px;
+	color: #1C1E21;
+}
+
+.description-text h2 {
+	font-size: 28px;
+	font-weight: normal;
+	padding: 0;
+}
+
+form {
+	background-color: #FFF;
+	text-align: center;
+	position: relative;
+	padding-top: 4px;
+	background: transparent;
+}
+
+.formBox {
+	width: 396px;
+	height: 349.4px;
+	box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+	background-color: #FFF;
+	border-radius: 8px;
+	margin-top: 4px;
+}
+
+.forms input {
+	display: block;
+	width: 362px;
+	height: 50px;
+	background: #FFF;
+	border: 1px solid rgba(204, 208, 213, .8);
+	border-radius: 6px;
+	margin-bottom: 12px;
+	text-indent: 16px;
+	font-size: 17px;
+	margin: 12px auto;
+}
+
+::placeholder {
+	color: #90949C;
+}
+
+.join {
+	width: 364px;
+	height: 48px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 20px;
+	border: none;
+	background-color: #1877F2;
+	border-radius: 6px;
+	margin-top: 4px;
+}
+
+.forgotPassword {
+	display: block;
+	text-align: center;
+	color: #1877F2;
+	text-decoration: none;
+	background-color: #FFF;
+	font-size: 14px;
+	padding-top: 17px;
+}
+
+.line {
+	border-bottom: .8px solid rgb(218, 221, 225);
+	align-items: center;
+	margin: 20.5px 16px;
+}
+
+.newAcc {
+	background-color: #42B72A;
+	width: 165.5px;
+	height: 48px;
+	border: none;
+	border-radius: 6px;
+	color: #FFF;
+	font-size: 17px;
+	font-weight: bold;
+	margin-top: 6px;
+	cursor: pointer;
+}
+
+.create {
+	margin: 29px 6.5px;
+	font-size: 14px;
+}
+
+.createPage {
+	text-decoration: none;
+	color: #1C1E21;
+}
+
+.containerFooter {
+	height: 157px;
+	font-size: 12px;
+}
+
+.containerFooter ul li {
+	margin-right: 9.7px;
+	display: inline-flex;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.containerFooter .langs ul li {
+	margin-right: 6.5px;
+}
+
+.footerText {
+	width: 980px;
+	margin: 0 auto;
+}
+
+.langs {
+	padding: 5px 0;
+	padding-bottom: 9px;
+}
+
+.line-white {
+	margin: 0;
+	width: 100%;
+}
+
+.functions {
+	display: flex;
+	flex: 1;
+	padding: 8px 0;
+}
+
+.functions ul li {
+	padding-right: 7px;
+	line-height: 1.6;
+}
+
+.copy {
+	font-size: 11px;
+	color: #737373;
+	display: block;
+	padding-top: 12.8px;
+	padding-bottom: 10px;
+}
+
+#selected {
+	color: #737373;
+}
+
+.buttonMore {
+	cursor: pointer;
+	background: #F5F6F7;
+	height: 20px;
+	width: 30.3px;
+	padding-top: 3px;
+	border: 1px solid #ccd0d5;
+	border-radius: 2px;
+	margin-top: 2px;
+}
+
+.img {
+	width: 12px;
+	height: 12px;
+	background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/qTFyPGqBorT.png);
+	background-position: 0 -196px;
+	background-size: 26px 210px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.imgAdd {
+	width: 16px;
+	height: 16px;
+	background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/V18LIWdYAd3.png);
+	background-position: -40px -84.5px;
+	background-size: 170px 122px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+@media only screen and (max-width: 980px) {
+	.forms {
+		margin: 0 auto;
+	}
+	.information {
+		margin: 0 auto;
+	}
+	.footerText {
+		width: 768px;
+	}
+}
+
+@media only screen and (max-width: 892px) {
+	.information .logo {
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width: 780px) {
+	.footerText {
+		width: 500px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.footerText {
+		width: 300px;
+	}
+	.formBox {
+		margin: 5em auto;
+		width: 300px;
+	}
+	.description-text {
+		width: 300px;
+	}
+	.forms input {
+		width: 280px;
+	}
+	.join {
+		width: 280px;
+	}
+	.create {
+		text-align: center;
+	}
+}
